@@ -54,8 +54,11 @@ DB_PASSWORD=
 php artisan migrate
 php artisan db:seed
 ```
-
-### 5. ▶️ Menjalankan Aplikasi
+### 6. Buat symlink storage
+```bash
+php artisan storage:link
+```
+### 7. ▶️ Menjalankan Aplikasi
 Jalankan Laravel server:
 ```bash
 php artisan serve
